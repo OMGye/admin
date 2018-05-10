@@ -81,9 +81,9 @@ var config = {
         // html 加载
         new HtmlWebpackPlugin({
             filename        : 'view/index.html',
-            title           : 'MMall 后台管理系统',
+            title           : 'UpGo 后台管理系统',
             template        : './src/index.html',
-            favicon         : './favicon.ico',
+            favicon         : './upupgogogo.ico',
             inject          : true,
             hash            : true,
             chunks          : ['vendors', 'app'],
